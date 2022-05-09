@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Pacifico&family=Roboto&family=Satisfy&display=swap');
+*{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 0; padding: 0%;
+    transition: 1s;
+    text-decoration: none;
+}
+
+*section{
+    background-color: var(--pink);
+    color: rgb(255, 255, 255);
+}
+
+
+body{
+    background-color: rgb(2, 2, 58) ;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0; 
+    background:rgb(248, 0, 95);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    color: white;
+}
+
+
+header .logo{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 10px ;
+    padding-left: 5px;
+    padding-bottom: 10px ;
+    margin-left: 15px;
+}
+
+header .logo:hover{
+    color:rgb(248, 0, 95);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+header .navbar a{
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+    padding-top: 5px ;
+    padding-bottom: 5px;   
+    padding-right: 15px;
+    margin-right: 5px;
+}
+
+header .navbar a:hover{
+    color: rgb(248, 0, 95);
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.heading{
+    margin-top: 4rem;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+
+.gallery{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    justify-content: space-around;
+
+
+}
+
+.image{
+    margin-bottom: 5rem;
+    width: 480px;
+    height: auto;
+    border: 4px solid white;
+}
+
+img{
+    
+    width: 480px;
+    height: auto;
+
+}
+
+.image p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    background-color: rgb(248, 0, 95);
+    color: white;
+    text-align: center;
+}
+
+
+.info{
+    width: 1000px;
+    height: auto;
+    padding: 2px;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: justify;
+  
+    
+}
+
+.info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: white ;
+    padding: 2px;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer{
+    
+    padding: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
