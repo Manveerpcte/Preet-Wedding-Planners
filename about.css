@@ -78,7 +78,7 @@ header .navbar a:hover{
     align-items: center;
     margin-top: 3rem;
     margin-left: 6rem;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
 }
